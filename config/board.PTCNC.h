@@ -188,7 +188,7 @@ DEFINE_TEMP_SENSOR(extruder, TT_THERMISTOR, AIO6,  THERMISTOR_EXTRUDER)
 
 // Beta algorithm      r0      beta  r2    vadc
 // Steinhart-Hart      rp      t0    r0      t1    r1      t2    r2
-//TEMP_TABLE EXTRUDER (100000, 4092, 4700, 5.0)
+//TEMP_TABLE EXTRUDER (100000, 3960, 4700, 5.0)
 //DEFINE_TEMP_SENSORS_END
 
 
