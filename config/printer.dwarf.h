@@ -32,10 +32,10 @@
 
     Valid range: 20 to 4'0960'000 (0.02 to 40960 steps/mm)
 */
-#define STEPS_PER_M_X            320000
-#define STEPS_PER_M_Y            320000
+#define STEPS_PER_M_X            80000
+#define STEPS_PER_M_Y            80000
 #define STEPS_PER_M_Z            360000
-#define STEPS_PER_M_E            98892
+#define STEPS_PER_M_E            149836
 
 /** \def MAXIMUM_FEEDRATE_X MAXIMUM_FEEDRATE_Y MAXIMUM_FEEDRATE_Z MAXIMUM_FEEDRATE_E
   Used for G0 rapid moves and as a cap for all other feedrates.
@@ -93,13 +93,13 @@
     Valid range: -1000.0 to 1000.0
 */
 #define X_MIN                    0
-#define X_MAX                    120
+#define X_MAX                    150
 
 #define Y_MIN                    0
-#define Y_MAX                    100
+#define Y_MAX                    130
 
 #define Z_MIN                    0
-#define Z_MAX                    120
+#define Z_MAX                    106
 
 /** \def E_ABSOLUTE
   Some G-code creators produce relative length commands for the extruder,
@@ -160,7 +160,7 @@
 */
 #define MAX_JERK_X               120
 #define MAX_JERK_Y               120
-#define MAX_JERK_Z               24
+#define MAX_JERK_Z               60
 #define MAX_JERK_E               30
 
 

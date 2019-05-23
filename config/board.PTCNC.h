@@ -72,7 +72,7 @@
 #define Z_DIR_PIN                DIO7
 #define Z_MIN_PIN                DIO11
 //#define Z_MAX_PIN                DIO31
-#define Z_ENABLE_PIN             DIO8
+#define Z_ENABLE_PIN             AIO3
 //#define Z_INVERT_DIR
 #define Z_INVERT_MIN
 //#define Z_INVERT_MAX
@@ -114,7 +114,7 @@
   Connecting a device to SPI actually uses 4 signal lines, the other three
   pins are choosen by Teacup automatically.
 */
-//#define SD_CARD_SELECT_PIN       xxxx
+//#define SD_CARD_SELECT_PIN       AIO3
 
 /** \def MCP3008_SELECT_PIN
 
@@ -184,7 +184,7 @@
 */
 //DEFINE_TEMP_SENSORS_START
 //                 name      type           pin    additional
-DEFINE_TEMP_SENSOR(extruder, TT_THERMISTOR, AIO6,  THERMISTOR_EXTRUDER)
+DEFINE_TEMP_SENSOR(extruder, TT_THERMISTOR, AIO2,  THERMISTOR_EXTRUDER)
 
 // Beta algorithm      r0      beta  r2    vadc
 // Steinhart-Hart      rp      t0    r0      t1    r1      t2    r2
